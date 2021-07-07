@@ -43,6 +43,118 @@ export default function Index() {
             />
           </section>
         </section>
+        <footer className="bg-white flex flex-wrap py-8 px-24 md:px-2 dark:bg-black min-h-[50vh]">
+        <div className="w-full md:w-1/5 flex justify-center items-center">
+          <span className="dark:text-white">Logo</span>
+        </div>
+        <div className="w-full mt-2 md:w-1/5 flex justify-center items-center">
+          <p className="dark:text-white text-xs font-light">
+            Elit laboris aliqua ex duis aliquip. Commodo enim culpa eiusmod
+            adipisicing anim veniam officia excepteur labore ad nisi.
+            Reprehenderit est ea consequat eiusmod consequat est eiusmod amet.
+            Occaecat esse cupidatat magna aliquip deserunt officia exercitation.
+            Amet culpa excepteur
+          </p>
+        </div>
+        <div className="w-full mt-2 md:w-1/5 flex items-center md:justify-center">
+          <div className="flex flex-col space-y-2">
+            <a
+              href="/single"
+              className="flex dark:text-white dark:hover:text-purple-600 hover:text-purple-600 items-center space-x-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+              <p className="font-bold text-sm">Home</p>
+            </a>
+            <a
+              href="/single"
+              className="flex dark:text-white dark:hover:text-purple-600 hover:text-purple-600 items-center space-x-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+              <p className="font-bold text-sm">Archives</p>
+            </a>
+            <a
+              href="/single"
+              className="flex dark:text-white dark:hover:text-purple-600 hover:text-purple-600 items-center space-x-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+              <p className="font-bold text-sm">Write To Us</p>
+            </a>
+            <a
+              href="/single"
+              className="flex dark:text-white dark:hover:text-purple-600 hover:text-purple-600 items-center space-x-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+              <p className="font-bold text-sm">Blog</p>
+            </a>
+          </div>
+        </div>
+        <div className="w-full mt-2 md:w-1/5 justift-center flex flex-col justify-center items-center">
+          <p className="dark:text-white">Contact</p>
+          <section className="flex mt-2 space-x-2">
+            <a href="#">
+              <i className="fab text-[#1da1f2] fa-2x fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i className="fab text-[#3b5998] fa-2x fa-facebook-square"></i>
+            </a>
+            <a href="#">
+              <i className="fab fa-2x text-[#0088cc] fa-telegram-plane"></i>
+            </a>
+          </section>
+        </div>
+      </footer>
     </>
         
   )
